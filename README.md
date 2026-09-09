@@ -7,7 +7,8 @@ Ever taken a photo at night and ended up with something that is **too dark, full
 That is what this project is trying to fix.
 
 Instead of applying the same fixed "brighten + denoise" pipeline to every image, this project uses a small group of agents. Each agent has a specific job: **look at the image, decide what it needs, enhance it, check the result, and try again if necessary.**
-Screenshot 2026-09-09 at 18.35.28.png
+<img width="1470" height="956" alt="Screenshot 2026-09-09 at 18 36 12" src="https://github.com/user-attachments/assets/0e560d16-c339-4091-9fc0-532e3a695755" />
+
 The main idea is simple:
 
 ```text
