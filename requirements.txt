@@ -7,3 +7,6 @@ requests>=2.32.5,<3.0.0
 # optional - only needed for the LLM-backed planning path. Without it (or
 # without ANTHROPIC_API_KEY set) the pipeline runs fine on the heuristic
 # fallback planner.
+fastapi
+uvicorn[standard]
+python-multipart
