@@ -22,6 +22,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+def root():
+    return {"status": "ok", "message": "Low-Light Image Enhancement API is running"}
 
 @app.get("/health")
 def health():
