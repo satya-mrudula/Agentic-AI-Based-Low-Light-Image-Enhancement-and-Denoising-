@@ -22,7 +22,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.get("/")
 def root():
-    return FileResponse("webpage/index.html")
+    return FileResponse("static/index.html")
 
 
 @app.get("/health")
