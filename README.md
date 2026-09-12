@@ -8,6 +8,8 @@ That is what this project is trying to fix.
 
 Instead of applying the same fixed "brighten + denoise" pipeline to every image, this project uses a small group of agents. Each agent has a specific job: **look at the image, decide what it needs, enhance it, check the result, and try again if necessary.**
 <img width="1470" height="956" alt="Screenshot 2026-09-09 at 18 36 12" src="https://github.com/user-attachments/assets/0e560d16-c339-4091-9fc0-532e3a695755" />
+<img width="1470" height="956" alt="Screenshot 2026-09-12 at 09 38 21" src="https://github.com/user-attachments/assets/195ad2ad-ef78-4f76-9a09-6b8e72b59788" />
+
 
 The main idea is simple:
 
